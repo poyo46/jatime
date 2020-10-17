@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "***** black *****"
+black .
+
+echo "***** isort *****"
+isort .

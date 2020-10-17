@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "***** black *****"
+black --check .
+
+echo "***** flake8 *****"
+flake8 --max-line-length 88 --ignore=E203,W503,W504 jatime tests
+
+echo "***** isort *****"
+isort --check .
+
+echo "***** xenon *****"
+xenon --max-absolute B --max-modules A --max-average A jatime tests

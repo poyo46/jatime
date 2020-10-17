@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl --get "http://localhost:1729/analysis" --data-urlencode "string=それは令和２年十月十七日の出来事でした。"

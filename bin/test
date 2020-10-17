@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pytest -v -p no:warnings -p no:cacheprovider --cov=jatime --cov-branch --cov-report=term-missing
+pytest -v --doctest-modules jatime
