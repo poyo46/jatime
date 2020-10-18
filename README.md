@@ -2,13 +2,13 @@
 
 [![PyPI Version](https://img.shields.io/pypi/v/jatime.svg)](https://pypi.org/pypi/jatime/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/jatime.svg)](https://pypi.org/pypi/jatime/)
-[![License](https://img.shields.io/pypi/l/jatime.svg)](https://pypi.org/pypi/jatime/)
+[![License](https://img.shields.io/pypi/l/jatime.svg)](https://github.com/poyo46/jatime/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![Test Status](https://github.com/poyo46/jatime/workflows/Test/badge.svg)](https://github.com/poyo46/jatime/actions?query=workflow%3ATest) 
 
 Jatime is a Python library to extract Japanese time expressions from a given text and turning them into objects. 
-[Try Jatime now from your browser!](https://poyo46.github.io/jatime/)
+[Try jatime now from your browser!](https://poyo46.github.io/jatime/index.html)
 
 ## Installing jatime
 
@@ -68,6 +68,6 @@ $ curl --get "http://localhost:1729/analysis" --data-urlencode "string=それは
 
 ## Features
 * Jatime does not change the given string at all. It just objectifies the extracted time expressions.
-* Jatime supports a variety of time expressions. `22:30`, `午後十時半` and `P.M.10:30` are all interpreted as the same time as we want.
+* Jatime supports a variety of time expressions. For example, `22:30`, `午後十時半` and `P.M.10:30` are all interpreted as the same time as we want.
 * Jatime tries to make up for the missing time information whenever possible. That is, jatime calculates the year given the month, day and day of the week.
 * Jatime will tell us why the time information is inconsistent if it is inconsistent.

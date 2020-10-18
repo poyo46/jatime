@@ -7,7 +7,7 @@ authors = [
     "poyo46 <poyo4rock@gmail.com>"
 ]
 readme = "README.md"
-homepage = "https://poyo46.github.io/jatime/"
+homepage = "https://poyo46.github.io/jatime/index.html"
 repository = "https://github.com/poyo46/jatime"
 keywords = ["time", "japanese"]
 classifiers = [
